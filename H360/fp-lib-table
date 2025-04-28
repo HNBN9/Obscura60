@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "footprint-lib")(type "KiCad")(uri "C:/Users/johye/Documents/GitHub/footprint-lib")(options "")(descr ""))
+  (lib (name "typeC")(type "KiCad")(uri "C:/Users/johye/Documents/GitHub/footprint-lib/typeC.pretty")(options "")(descr ""))
 )
