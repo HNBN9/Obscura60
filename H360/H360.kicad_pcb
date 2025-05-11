@@ -59885,7 +59885,7 @@
 			)
 		)
 		(property "Value" "BQ24075RGT"
-			(at 0 -2.83 0)
+			(at 0 -2.83 180)
 			(layer "B.Fab")
 			(uuid "24aa2364-2ace-4d4b-8b3d-cb98f0758513")
 			(effects
@@ -59897,7 +59897,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq24075.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "144d4117-9ae7-4a1a-838e-b3093c201977")
@@ -59910,7 +59910,7 @@
 			)
 		)
 		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1dee76f2-2271-4016-b803-4636c59052e6")
@@ -59935,7 +59935,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "6dc3783d-5850-44fe-b1b6-1cd887fe5751")
+			(uuid "f1407fea-deac-4caa-9cde-2138101586e6")
 		)
 		(fp_line
 			(start -1.61 1.135)
@@ -59945,7 +59945,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "259adf40-3f9f-4839-9ab5-70f61a2d12f2")
+			(uuid "1632895d-cf29-4afb-b109-67d497877687")
 		)
 		(fp_line
 			(start -1.135 -1.61)
@@ -59955,7 +59955,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ac30563f-3187-4686-9053-76fb13624ca6")
+			(uuid "b2001496-9e6c-4c4e-adbe-280635fd7ba7")
 		)
 		(fp_line
 			(start -1.135 1.61)
@@ -59965,7 +59965,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "cb578bb8-9424-4cfa-b3b5-fcf92fba08be")
+			(uuid "2829a278-b161-484b-82d0-41edf8a9bfa8")
 		)
 		(fp_line
 			(start 1.135 -1.61)
@@ -59975,7 +59975,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "a8681bbc-0493-4e3b-8e2c-a76a674116ca")
+			(uuid "93971d95-f73c-4656-b600-239669a92d35")
 		)
 		(fp_line
 			(start 1.135 1.61)
@@ -59985,7 +59985,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "3f5e8e9f-d858-4ede-be61-eabf0d53f4af")
+			(uuid "fb7ea9f3-e353-455c-8866-64e03a87b9f4")
 		)
 		(fp_line
 			(start 1.61 -1.61)
@@ -59995,7 +59995,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "09f8b3fa-51e1-421b-9346-c5f653edaf47")
+			(uuid "1e636e81-c15d-4c20-b8dd-71dbad456ce4")
 		)
 		(fp_line
 			(start 1.61 1.61)
@@ -60005,7 +60005,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "26283f6e-f7cf-496e-a8f2-4bd9e8a47626")
+			(uuid "1dc51ede-6f4c-48d6-9b78-a3abc478060c")
 		)
 		(fp_poly
 			(pts
@@ -60017,7 +60017,7 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(uuid "b06a6394-371e-4280-afee-e6692fb3637b")
+			(uuid "3fa0daf5-f377-4658-b696-2681db481c48")
 		)
 		(fp_rect
 			(start -2.13 2.13)
@@ -60028,7 +60028,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "2ef67e1f-a13c-455f-975e-540a49ffee16")
+			(uuid "e58458c3-1cca-418c-aef3-2afbfb8d509c")
 		)
 		(fp_poly
 			(pts
@@ -60040,10 +60040,10 @@
 			)
 			(fill no)
 			(layer "B.Fab")
-			(uuid "6be70881-573c-438d-be03-593ecf0ecb8f")
+			(uuid "c8f3d5bb-ed27-468b-9d50-bb7f1e0dc8b9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "84d19891-39c1-4cb5-bb10-b1edb633d52a")
 			(effects
@@ -60059,28 +60059,28 @@
 			(size 0.64 0.64)
 			(layers "B.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "3962ff33-b0a7-4f85-88af-f9314732b259")
+			(uuid "58ce4c0f-aa8a-4010-bfaf-287b4758e57e")
 		)
 		(pad "" smd roundrect
 			(at -0.4 0.4)
 			(size 0.64 0.64)
 			(layers "B.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "f6ac8549-a18b-4aef-acd2-0fe1698917ef")
+			(uuid "6ea9e221-f872-44f1-b7f3-64c94f6bf170")
 		)
 		(pad "" smd roundrect
 			(at 0.4 -0.4)
 			(size 0.64 0.64)
 			(layers "B.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "cb11447b-9066-409f-bbe6-ec21a6d5f778")
+			(uuid "84e255d7-f7bd-4ec6-8bee-e7309f31d4c1")
 		)
 		(pad "" smd roundrect
 			(at 0.4 0.4)
 			(size 0.64 0.64)
 			(layers "B.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "0c54b45b-9372-48c4-849b-0d6b5f72e6d4")
+			(uuid "250d121a-5330-4e9d-826c-822ef36263e1")
 		)
 		(pad "1" smd roundrect
 			(at -1.4375 0.75)
@@ -60263,6 +60263,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/johye/Downloads/BQ24075RGTR.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
 			)
 		)
 	)
@@ -64044,6 +64055,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/johye/Downloads/S2B-PH-SM4-TB(LF)(SN)--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 0 -4.4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
