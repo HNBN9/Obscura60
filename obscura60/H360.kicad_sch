@@ -8974,7 +8974,7 @@
 		)
 	)
 	(global_label "SYSOFF"
-		(shape input)
+		(shape output)
 		(at 246.38 33.02 180)
 		(fields_autoplaced yes)
 		(effects
@@ -22640,7 +22640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 269.24 29.2099 0)
 			(effects
 				(font
