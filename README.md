@@ -10,9 +10,9 @@ first keyboard build 60% wireless
 </p>
 
 
-Colored By -
-Mr.Finishing Surfacer 1500 Black
-Tamiya TS81 - top
-Tamiya TS55 - bottom
+Colored By -<br>
+Mr.Finishing Surfacer 1500 Black<br>
+Tamiya TS81 - top<br>
+Tamiya TS55 - bottom<br>
 
-Keycaps - 日当午GMK Prussian Alert普鲁(ordered 1 more 3u spacebar)
+Keycaps - 日当午GMK Prussian Alert普鲁(ordered 1 more 3u spacebar)<br>
