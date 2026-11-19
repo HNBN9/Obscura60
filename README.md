@@ -1,28 +1,36 @@
-
 # Obscura60
 
 Obscura60 is a custom 60% wireless mechanical keyboard, built as my first step into the world of custom keyboards.
 
-Inspired by the compact layout of the Happy Hacking Keyboard (HHKB), it features a modified layout with dedicated arrow keys while retaining the overall simplicity of a 60% form factor.
+## Concept
 
-The keyboard features a custom-designed PCB, a 3D-printed enclosure, and a wireless configuration based on ZMK firmware.
+I wanted to keep typing on a compact 60% layout, which is what I'm most comfortable with. At the same time, I didn't want the keyboard to be a hassle for anyone else who sits at my desk.
+
+So Obscura60 starts from the compact layout of the Happy Hacking Keyboard (HHKB) and adds dedicated arrow keys. It stays small and simple for me, but is still easy to use for someone who isn't used to a 60% keyboard.
+
+It is built around a custom-designed PCB, a 3D-printed enclosure, and ZMK firmware over Bluetooth LE.
 
 ![Obscura60 Side View](./images/side_view.jpg)
-
----
 
 > [!WARNING]
 > **Battery Circuit — Work in Progress**
 >
 > The battery charging and discharging circuit in the current hardware design is an unrevised version with known issues.
 >
-> The schematic and PCB documentation do not represent a finalized power management design. Do not use this circuit as a reference for building or connecting a Li-Po battery until the issues have been addressed and the design has been verified.
+> The schematic and PCB files do not represent a finalized power management design. Do not use this circuit as a reference for building or connecting a Li-Po battery until the issues have been addressed and the design has been verified.
+
+## Features
+
+- 60% compact layout (modified HHKB)
+- Dedicated arrow keys
+- Wireless connectivity over Bluetooth LE (Nordic nRF52840)
+- Custom-designed PCB
+- Custom FDM 3D-printed enclosure
+- ZMK firmware
 
 ## Layout
 
-The layout is based on the Happy Hacking Keyboard, with modifications to better suit my preferences.
-
-It retains the compact arrangement of a traditional 60% keyboard while incorporating dedicated arrow keys for easier navigation.
+The layout is based on the HHKB, modified to suit my own preferences. It keeps the compact arrangement of a traditional 60% keyboard and adds dedicated arrow keys, so that other people can use it comfortably without learning a new layout.
 
 ![Obscura60 Keymap](./images/keymap.jpg)
 
@@ -37,20 +45,18 @@ It retains the compact arrangement of a traditional 60% keyboard while incorpora
 | MCU | Nordic nRF52840 |
 | Connectivity | Bluetooth LE |
 | Firmware | ZMK |
-| Case | Custom 3D-printed |
-| Battery | Li-Po |
+| Case | Custom FDM 3D-printed |
+| Battery | Li-Po (see the warning above) |
 
 ## Hardware
 
 ### Controller
 
-The keyboard uses the **Holyiot-18010**, a compact wireless module based on the Nordic nRF52840.
-
-It handles keyboard matrix scanning and Bluetooth Low Energy communication through ZMK firmware.
+The keyboard uses the **Holyiot-18010**, a compact wireless module based on the Nordic nRF52840. Together with ZMK firmware, it handles key matrix scanning and Bluetooth Low Energy communication.
 
 ### PCB
 
-A custom PCB designed around the chosen layout and wireless configuration.
+A custom PCB designed for this layout and wireless configuration.
 
 ![PCB](./images/pcb.png)
 
@@ -60,47 +66,41 @@ The circuit schematic documenting the keyboard's electrical connections.
 
 ![Schematic](./images/schematic.png)
 
-> **Note:** The battery charging and discharging circuitry is not finalized. See the warning above.
+> [!NOTE]
+> The battery charging and discharging circuitry is not finalized. See the warning above.
 
 ## Case Design
 
-The enclosure was designed specifically for the PCB and the overall 60% layout.
-
-The case was manufactured using FDM 3D printing, allowing the dimensions and internal structure to be customized around the keyboard assembly.
-
-### Housing Render
+The enclosure was designed specifically for this PCB and the 60% layout. It was manufactured with FDM 3D printing, which allowed the dimensions and internal structure to be tailored to the keyboard assembly.
 
 ![Case Render](./images/case_render.png)
-
 
 ## Firmware
 
 Obscura60 runs on [ZMK Firmware](https://zmk.dev/), an open-source firmware platform for wireless mechanical keyboards.
 
-The keyboard-specific configuration, keymap, and build configuration are maintained in a separate repository.
+The keyboard-specific configuration, keymap, and build settings are maintained in a separate repository:
 
 **[Obscura60 ZMK Configuration](https://github.com/HNBN9/zmk-config-obscura60)**
 
-## Build Gallery
+## Known Issues
 
-Additional photos of the finished keyboard.
+- The battery charging and discharging circuit has known issues and has not been revised or verified.
+- The published schematic and PCB should therefore be treated as a reference for the rest of the design only, not for the power circuit.
+
+## Gallery
 
 ![Top View](./images/top_view.jpg)
 
-![Side View](./images/side_view.jpg)
-
 ![Internal Assembly](./images/bottom_open.jpg)
-
----
 
 ## License
 
 This project uses separate licenses for software and non-software materials.
 
-- **Firmware configuration and source code:** MIT License.
-- **Hardware design files, documentation, photographs, and renders:** CC BY-NC 4.0.
+| Material | License |
+|---|---|
+| Firmware configuration and source code | MIT License |
+| Hardware design files (schematic, PCB, case), documentation, photographs, and renders | CC BY-NC 4.0 |
 
-See `LICENSE-MIT` and `LICENSE-CC-BY-NC` for the respective license terms.
-
----
-
+ZMK Firmware itself is distributed under its own license; see the [ZMK repository](https://github.com/zmkfirmware/zmk).
