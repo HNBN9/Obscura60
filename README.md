@@ -74,9 +74,6 @@ The case was manufactured using FDM 3D printing, allowing the dimensions and int
 
 ![Case Render](./images/case_render.png)
 
-### Assembly
-
-![Internal Assembly](./images/bottom_open.jpg)
 
 ## Firmware
 
