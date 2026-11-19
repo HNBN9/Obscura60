@@ -100,7 +100,7 @@ This project uses separate licenses for software and non-software materials.
 
 | Material | License |
 |---|---|
-| Firmware configuration and source code | MIT License |
-| Hardware design files (schematic, PCB, case), documentation, photographs, and renders | CC BY-NC 4.0 |
+| Firmware configuration and source code | [MIT License](./LICENSE-MIT) |
+| Hardware design files (schematic, PCB, case), documentation, photographs, and renders | [CC BY-NC 4.0](./LICENSE-CC-BY-NC) |
 
 ZMK Firmware itself is distributed under its own license; see the [ZMK repository](https://github.com/zmkfirmware/zmk).
