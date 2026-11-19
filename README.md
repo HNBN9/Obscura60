@@ -9,8 +9,6 @@ Inspired by the compact layout of the Happy Hacking Keyboard (HHKB), it features
 
 The keyboard features a custom-designed PCB, a 3D-printed enclosure, and a wireless configuration based on ZMK firmware.
 
-![Obscura60 Top View](./images/top_view.jpg)
-
 ![Obscura60 Side View](./images/side_view.jpg)
 
 ---
