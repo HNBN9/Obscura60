@@ -1,8 +1,6 @@
 
 # Obscura60
 
-**My first custom mechanical keyboard build.**
-
 Obscura60 is a custom 60% wireless mechanical keyboard, built as my first step into the world of custom keyboards.
 
 Inspired by the compact layout of the Happy Hacking Keyboard (HHKB), it features a modified layout with dedicated arrow keys while retaining the overall simplicity of a 60% form factor.
@@ -106,4 +104,3 @@ See `LICENSE-MIT` and `LICENSE-CC-BY-NC` for the respective license terms.
 
 ---
 
-*Obscura60 — my first custom keyboard build.*
