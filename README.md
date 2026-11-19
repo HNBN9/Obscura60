@@ -26,7 +26,7 @@ The layout is based on the Happy Hacking Keyboard, with modifications to better 
 
 It retains the compact arrangement of a traditional 60% keyboard while incorporating dedicated arrow keys for easier navigation.
 
-![Obscura60 Keymap](./images/keymap.png)
+![Obscura60 Keymap](./images/keymap.jpg)
 
 ## Specifications
 
@@ -54,7 +54,7 @@ It handles keyboard matrix scanning and Bluetooth Low Energy communication throu
 
 A custom PCB designed around the chosen layout and wireless configuration.
 
-![PCB](./images/pcb.jpg)
+![PCB](./images/pcb.png)
 
 ### Schematic
 
@@ -72,7 +72,7 @@ The case was manufactured using FDM 3D printing, allowing the dimensions and int
 
 ### Housing Render
 
-![Case Render](./images/case_render.png)
+![Case Render](./images/case_render.jpg)
 
 
 ## Firmware
