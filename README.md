@@ -72,7 +72,7 @@ The case was manufactured using FDM 3D printing, allowing the dimensions and int
 
 ### Housing Render
 
-![Case Render](./images/case_render.jpg)
+![Case Render](./images/case_render.png)
 
 
 ## Firmware
