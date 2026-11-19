@@ -19,6 +19,13 @@ It is built around a custom-designed PCB, a 3D-printed enclosure, and ZMK firmwa
 >
 > The schematic and PCB files do not represent a finalized power management design. Do not use this circuit as a reference for building or connecting a Li-Po battery until the issues have been addressed and the design has been verified.
 
+> [!WARNING]
+> **Housing Dimension Error — Ctrl Key Position**
+>
+> Due to a measurement error in the housing design, a keycap does not fit at the Ctrl key position.
+>
+> The enclosure needs to be revised. Keep this in mind if you refer to the current case design.
+
 ## Features
 
 - 60% compact layout (modified HHKB)
@@ -87,6 +94,7 @@ The keyboard-specific configuration, keymap, and build settings are maintained i
 
 - The battery charging and discharging circuit has known issues and has not been revised or verified.
 - The published schematic and PCB should therefore be treated as a reference for the rest of the design only, not for the power circuit.
+- The housing has a dimensional error at the Ctrl key position, where a keycap does not fit. The enclosure needs to be revised.
 
 ## Gallery
 
