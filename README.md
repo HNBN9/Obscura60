@@ -102,6 +102,10 @@ The keyboard-specific configuration, keymap, and build settings are maintained i
 
 ![Internal Assembly](./images/bottom_open.jpg)
 
+## References
+
+- [ZMK Design Guide (ebastler)](https://github.com/ebastler/zmk-designguide) — referenced for the wireless keyboard PCB design, including the USB connector and protection circuitry.
+
 ## License
 
 This project uses separate licenses for software and non-software materials.
